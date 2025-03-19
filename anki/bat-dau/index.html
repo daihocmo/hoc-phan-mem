@@ -1,0 +1,876 @@
+
+<!doctype html>
+<html lang="vi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="vozer vozer vozer vozer vozer vozer vozer vozer vozer vozer">
+      
+      
+        <meta name="author" content="duykhanh471">
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../ki-thuat-anki/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>SRS & Active Recall cơ bản - Học phần mềm - Khu học mở</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tim-hieu-ve-cach-hoc-va-on-tap-su-dung-anki" class="md-skip">
+          Bỏ qua
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Đầu trang">
+    <a href="../.." title="Học phần mềm - Khu học mở" class="md-header__button md-logo" aria-label="Học phần mềm - Khu học mở" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Học phần mềm - Khu học mở
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SRS & Active Recall cơ bản
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="grey"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="grey"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Tìm kiếm" placeholder="Tìm kiếm" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Tìm kiếm">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Chia sẻ" aria-label="Chia sẻ" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Xoá" aria-label="Xoá" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/daihocmo/hoc-phan-mem" title="Xem mã nguồn" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mở PR trên đây
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Thanh điều hướng" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Học phần mềm - Khu học mở" class="md-nav__button md-logo" aria-label="Học phần mềm - Khu học mở" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Học phần mềm - Khu học mở
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/daihocmo/hoc-phan-mem" title="Xem mã nguồn" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mở PR trên đây
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trang chủ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../danh-sach-chung/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Danh sách tổng hợp
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Anki
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Anki
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    SRS & Active Recall cơ bản
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    SRS & Active Recall cơ bản
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#truoc-khi-bat-au" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trước khi bắt đầu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#active-recall-spaced-repetition-va-anki" class="md-nav__link">
+    <span class="md-ellipsis">
+      Active Recall, Spaced Repetition và Anki
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Active Recall, Spaced Repetition và Anki">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-ve-anki-lap-lai-ngat-quang-spaced-repetition-va-active-recall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bàn về Anki, lặp lại ngắt quãng (spaced repetition) và active recall
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bàn về Anki, lặp lại ngắt quãng (spaced repetition) và active recall">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#active-recall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Active Recall
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srs-he-thong-lap-lai-ngat-quang" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRS - Hệ thống lặp lại ngắt quãng
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chon-khoang-thoi-gian-phu-hop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chọn khoảng thời gian phù hợp
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tham-khao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tham khảo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ki-thuat-anki/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mẹo Anki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lặp lại ngắt quãng
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-quy-tac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    20 quy tắc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Obsidian
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Obsidian
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hướng dẫn chung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#truoc-khi-bat-au" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trước khi bắt đầu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#active-recall-spaced-repetition-va-anki" class="md-nav__link">
+    <span class="md-ellipsis">
+      Active Recall, Spaced Repetition và Anki
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Active Recall, Spaced Repetition và Anki">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-ve-anki-lap-lai-ngat-quang-spaced-repetition-va-active-recall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bàn về Anki, lặp lại ngắt quãng (spaced repetition) và active recall
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bàn về Anki, lặp lại ngắt quãng (spaced repetition) và active recall">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#active-recall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Active Recall
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srs-he-thong-lap-lai-ngat-quang" class="md-nav__link">
+    <span class="md-ellipsis">
+      SRS - Hệ thống lặp lại ngắt quãng
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chon-khoang-thoi-gian-phu-hop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chọn khoảng thời gian phù hợp
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tham-khao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tham khảo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="tim-hieu-ve-cach-hoc-va-on-tap-su-dung-anki">Tìm hiểu về cách học và ôn tập sử dụng Anki</h1>
+<h2 id="truoc-khi-bat-au">Trước khi bắt đầu</h2>
+<p>Trong mục hướng dẫn về Anki này, mình sẽ tập trung hướng dẫn bạn rất nhiều thứ xoay quanh Anki và cách Anki hoạt động (dựa trên hai phương pháp học tập cực xịn, đó là Active Recall hay "Gợi nhớ chủ động" và Spaced Repetition hay "Lặp lại ngắt quãng"), đồng thời, đưa ra những chiến lược giúp bạn học tập và ghi nhớ hiệu quả hơn sử dụng Anki.</p>
+<p>Mình xin lỗi trước nếu kiến thức trong mục này có vượt quá phạm vi liên quan đến ngoại ngữ, nhưng mình vẫn gợi ý mọi người đọc hết để có thể nâng cao khả năng ghi nhớ và học tập của mình với Anki ở nhiều lĩnh vực khác nhau.</p>
+<p>Các công nghệ, Addons và các bộ thẻ được làm sẵn sẽ liên tục xuất hiện, nhưng kiến thức nền tảng, cách thức hoạt động của Anki sẽ không bao giờ thay đổi, là một hệ thống SRS tiềm năng giúp bạn ghi nhớ MỌI THỨ tốt hơn.</p>
+<h2 id="active-recall-spaced-repetition-va-anki">Active Recall, Spaced Repetition và Anki</h2>
+<p>Trong bài viết <a href="http://augmentingcognition.com/ltm.html">Augmenting Long-term Memory</a> thì chú Michael Nielsen có viết: </p>
+<blockquote>
+<p>"The single biggest change that Anki brings about is that it means memory is no longer a haphazard event, to be left to chance. Rather, it guarantees I will remember something, with minimal effort. That is, Anki makes memory a choice." </p>
+</blockquote>
+<p>(Dịch qua: Sự thay đổi lớn nhất mà Anki mang lại là trí nhớ không còn là một sự kiện ngẫu nhiên, để mặc cho sự may rủi. Thay vào đó, Anki sẽ đảm bảo rằng tôi nhớ được điều gì đó, với nỗ lực tối thiểu. Vậy đấy, Anki khiến việc ghi nhớ trở thành một lựa chọn)</p>
+<p>Việc hiểu được nguyên lý hoạt động của việc học tập và ghi nhớ trên Anki thực sự rất quan trọng. Rất nhiều người đã từ bỏ sử dụng Anki chỉ sau một thời gian ngắn. </p>
+<blockquote>
+<p>T cũng học bằng Anki được gần 2 năm, t thì mới tốt nghiệp YHN, thực sự Anki giúp t rất nhiều trong việc ôn thi. Cộng đồng học Y sử dụng Anki trên thế giới đông khủng khiếp. Vấn đề ko nằm ở cách sử dụng, hay các add-on; t thấy hãy quên nó đi, quan trọng là cách bạn đặt câu hỏi và câu trả lời; quan trọng hơn nữa là cách bạn review lại kiến thức. Khi t review lại bài, t luôn luôn cầm theo quyển vở nháp, và viết đáp án ra giấy (hoặc câu nào dễ quá thì cũng phải nói ra mồm); thay vì bấm hiện đáp án ngay, hãy cố gắng recall lại kiến thức trong đầu và viết nó ra. (Trích từ <a href="https://spiderum.com/bai-dang/Tron-1-nam-su-dung-Anki-de-nho-moi-thu-va-mot-so-ghi-chu-8pz">một bình luận trên bài viết Tròn 1 năm sử dụng Anki Flashcards để nhớ mọi thứ và một số ghi chú</a>)</p>
+</blockquote>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UDUITtA1jJI?si=TtNtGTxd7vUO1GuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3 id="ban-ve-anki-lap-lai-ngat-quang-spaced-repetition-va-active-recall">Bàn về Anki, lặp lại ngắt quãng (spaced repetition) và active recall</h3>
+<p>Anki là một ứng dụng học flashcard được Damien Elmes phát hành lần đầu tiên vào năm 2006. Chương này sẽ thảo luận về lý do tại sao Anki là ứng dụng học flashcard tốt nhất. Chúng ta sẽ thảo luận về tất cả những lợi ích mà Anki sẽ mang lại và tại sao Anki sẽ giúp bạn học tập và ghi nhớ hiệu quả hơn.</p>
+<p>Rất nhiều các nghiên cứu đã chỉ ra sự hiệu quả của việc sử dụng Flashcard. Với Active Recall và lặp lại ngắt quãng, việc sử dụng Flashcard trong các phần mềm SRS (Ở đây là Anki) đã khiến cho việc ghi nhớ trở thành một lựa chọn (Anki makes memory a choice).</p>
+<h4 id="active-recall">Active Recall</h4>
+<p>Active Recall (Dịch nôm na sang Tiếng Việt là "Nhớ lại một cách chủ động") là một trong hai kỹ thuật quan trọng nhất mà Anki sử dụng. Active Recall có nghĩa là khi bạn nhìn thấy một thẻ ghi nhớ, bạn phải <strong>chủ động</strong> tìm kiếm câu trả lời trong trí nhớ của mình. Đó là vì mỗi một thẻ ghi nhớ là một cặp câu hỏi và câu trả lời. Để trả lời câu hỏi trong mỗi thẻ ghi nhớ, bạn phải hiểu câu hỏi trước đã. Phải hiểu câu hỏi trước thì bạn mới có thể trả lời được. </p>
+<p>Việc hiểu được câu hỏi và tìm ra câu trả lời sẽ khiến bạn cần phải suy nghĩ khá nhiều. Nghe có vẻ đơn giản nhưng việc này hoàn toàn trái ngược với cách học truyền thống. Theo cách học truyền thống, bạn học bằng cách đọc một văn bản. Khi bạn đọc xong, khả năng cao là bạn sẽ không nhớ gì cả. Cách duy nhất để thực sự nhớ được nội dung là tự hỏi bản thân những câu hỏi về những gì đã được dạy. Việc tạo thẻ ghi nhớ từ những câu hỏi này chính là cách để bạn học được nhiều nhất. </p>
+<p>Nhiều nghiên cứu cũng đã chỉ ra rằng Active Recall thực sự có hiệu quả. Ví dụ, trong một cuộc nghiên cứu (không rõ nguồn), những học sinh học bằng phương pháp Active Recall có kết quả học tập tốt hơn đáng kể so với những học sinh sử dụng các kỹ thuật học thụ động, chẳng hạn như đọc lại ghi chú của họ.</p>
+<h4 id="srs-he-thong-lap-lai-ngat-quang">SRS - Hệ thống lặp lại ngắt quãng</h4>
+<p>Trong bài viết về SRS của Antimoon, Tom có viết rằng:</p>
+<blockquote>
+<p>Ưu điểm cực lớn từ SRS là thay vì mỗi lần ôn lại tất cả từ vựng (như một số các phương pháp truyền thống như ghi chép, chép lại từ mới .v.v), bạn chỉ ôn lại một phần nhỏ trong số đó vì phần mềm lặp lại ngắt quãng biết từ nào bạn nhớ rõ và từ nào bạn nhớ kém nên nó sẽ giúp bạn không lãng phí thời gian vào những điều đã được biết rõ. Chỉ cần ôn lại những điều bạn thực sự cần ôn lại - những thứ có nguy cơ bị quên.</p>
+<p>Kết quả khá ấn tượng: Bạn có thể ghi nhớ hàng nghìn từ và cụm từ dù chỉ cần 10 phút mỗi ngày để ôn tập. Nó giống như gắn thêm một ổ cứng vào đầu vậy.</p>
+</blockquote>
+<p><em>Trích từ bài viết <a href="https://www.antimoon.com/how/srs-intro.htm">Introduction to SRS</a> được viết bởi Tom trên Antimoon. <a href="../srs/">Bản dịch Tiếng Việt của bài viết</a></em></p>
+<p>Mô hình bộ nhớ trong phần mềm lặp lại ngắt quãng dựa trên nghiên cứu khoa học về trí nhớ con người. <strong>Ký ức trở nên mạnh mẽ hơn sau mỗi lần ôn lại</strong>. Ví dụ: sau khi bạn học một từ mới, bạn có thể nhớ nó trong 2 ngày (với xác suất là 90%). Nếu bạn xem lại nó sau 2 ngày, bạn sẽ nhớ nó thêm 5 ngày nữa. Nếu bạn xem lại sau 5 ngày đó, bạn sẽ nhớ nó thêm 10 ngày nữa. Sau đó, thêm 20 ngày nữa. Và như thế. Thời gian giữa các lần ôn tập ngày càng dài hơn.</p>
+<p>Anki là sự kết hợp của Active Recall (Ôn tập chủ động) và Spaced Repetition (Lặp lại ngắt quãng), giúp xây dựng một quá trình học tập cực kỳ hiệu quả. Đồng thời, giảm đáng kể thời gian bạn cần dành cho việc học và tăng đáng kể lượng kiến ​​thức bạn biết nếu bạn dành cùng một lượng thời gian học như trước khi sử dụng các kỹ thuật này.</p>
+<h4 id="chon-khoang-thoi-gian-phu-hop">Chọn khoảng thời gian phù hợp</h4>
+<p>Sẽ có những lựa chọn ôn tập sau:</p>
+<ul>
+<li>Lựa chọn ôn tập 1 - Học nhồi nhét trước kỳ thi: Ngày 26, 27, 28, 29, 30, 31 tháng 12.</li>
+<li>Lựa chọn ôn tập 2 - Thủ khoa Ivy League không bao giờ trì hoãn: Ôn tập vào ngày đầu tiên mỗi tháng - ngày 1 tháng 1, ngày 1 tháng 2, ngày 1 tháng 3, ngày 1 tháng 4, v.v.</li>
+<li>Lựa chọn ôn tập 3 - Lặp lại cách quãng: Ngày 1 tháng 1, ngày 3 tháng 1, ngày 20 tháng 1, ngày 28 tháng 2, ngày 15 tháng 4, ngày 30 tháng 9.</li>
+</ul>
+<p>Lựa chọn ôn tập 3 (Lặp lại cách quãng) giúp bạn có khả năng ghi nhớ dài hạn cao nhất. Lý do cho điều này:</p>
+<ul>
+<li>Việc nhồi nhét chỉ giúp bạn đưa kiến thức vào bộ nhớ ngắn hạn và sẽ bốc hơi ra khỏi đầu bạn nhanh thôi.</li>
+<li>Lựa chọn số 2: Mỗi lần ôn tập là phải ôn tập toàn bộ nội dung.</li>
+<li>Bộ não của chúng ta hoạt động tốt nhất thông qua các lần ôn tập ngắt quãng. Bởi:</li>
+</ul>
+<blockquote>
+<p>"Mô hình bộ nhớ trong phần mềm lặp lại ngắt quãng dựa trên nghiên cứu khoa học về trí nhớ con người. Ký ức sẽ trở nên mạnh mẽ hơn sau mỗi lần ôn lại [...] Vì thời gian giữa các lần lặp lại dài hơn nên khối lượng công việc của bạn (số lần lặp lại hàng ngày) ngày càng giảm. Bạn sử dụng SRS càng lâu thì càng mất ít thời gian để ghi nhớ một nhóm từ trong bộ nhớ".</p>
+</blockquote>
+<p>Hệ thống lặp lại ngắt quãng thực sự hiệu quả. Để tìm hiểu thêm, bạn có thể đọc thêm <a href="../srs/">Tìm hiểu cơ bản về SRS</a>.</p>
+<h3 id="tham-khao">Tham khảo</h3>
+<p>Danh sách bài viết được tham khảo từ nhiều nguồn khác nhau:</p>
+<ul>
+<li><a href="https://docs.google.com/document/d/1HiO1Fm3RLOmZiL0tsTXndY4TmzMiZFMQeENx5uCXVE0/edit?tab=t.0#heading=h.gjdgxs">Guide to Anki</a></li>
+<li><a href="http://web.archive.org/web/20240324210344/https://senrigan.io/blog/">Senrigan - Blog</a></li>
+<li><a href="https://docs.ankiweb.net/studying.html">Studying - Anki Manual</a></li>
+<li><a href="https://a-tiny-improvement.notion.site/How-to-learn-with-Anki-8ce072133ae24b4b9d64c84a7f20b796">How to learn with Anki</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "search.suggest", "search.highlighting", "search.share"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../js/open_in_new_tab.js"></script>
+      
+    
+  </body>
+</html>
