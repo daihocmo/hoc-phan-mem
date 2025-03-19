@@ -1,0 +1,56 @@
+site_name: Học phần mềm - Khu học mở
+site_description: vozer vozer vozer vozer vozer vozer vozer vozer vozer vozer 
+site_author: duykhanh471
+repo_url: https://github.com/daihocmo/hoc-phan-mem
+repo_name: Mở PR trên đây
+
+nav:
+  - 'Trang chủ': 'index.md'
+  - 'Danh sách tổng hợp': 'danh-sach-chung.md'
+  - 'Anki':
+    - 'Anki': 'anki/index.md'
+    - 'SRS & Active Recall cơ bản': 'anki/bat-dau.md'
+    - 'Mẹo Anki': 'anki/ki-thuat-anki.md'
+    - 'Lặp lại ngắt quãng': 'anki/srs.md'
+    - '20 quy tắc': 'anki/20-quy-tac.md'
+  - 'Obsidian':
+    - 'Hướng dẫn chung': 'obsidian/index.md'
+
+theme:
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlighting
+    - search.share
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  language: vi
+
+      
+plugins:
+  - search
+  - open-in-new-tab
+  
+extra:
+  generator: false
